@@ -77,7 +77,8 @@ st.markdown("""
             text-shadow: 2px 2px 10px rgba(255, 69, 0, 0.5);
             margin-bottom: 0px;
         ">
-            🎈 Happy Birthday <br> Name! 🎈
+            <h1>🎈 Happy Birthday 🎈 <h1>
+            <br> Name! 
             <br>To an amazing friend
             <br>Turn up the volume and enjoy your day!
 
