@@ -66,14 +66,24 @@ st.markdown("""
     </script>
     """, unsafe_allow_html=True)
 
-# 4. The Content
+
+# 4. The Content (Styled with Transparent Background and Colorful Fonts)
 st.markdown("""
-    <div class="birthday-card">
-        <h1 style='color: #ff4757;'>🎈 Happy Birthday! 🎈</h1>
-        <h3>To an amazing friend!</h3>
-        <p>Turn up the volume and enjoy your day!</p>
+    <div style="text-align: center; margin-top: 50px;">
+        <h1 style="
+            font-family: 'Arial Black', sans-serif; 
+            font-size: 4rem;
+            color: #FF4500; 
+            text-shadow: 2px 2px 10px rgba(255, 69, 0, 0.5);
+            margin-bottom: 0px;
+        ">
+            🎈 Happy Birthday <br> Name! 🎈
+            <br>To an amazing friend
+            <br>Turn up the volume and enjoy your day!
+
+        
     </div>
-    """, unsafe_allow_html=True)
+    """, unsafe_allow_html=True) # <--- THIS IS THE SECRET KEY
 
 # 5. The "Big Surprise" Button (Still includes Streamlit's built-in burst)
 if st.button('Click for Extra Magic! ✨'):
