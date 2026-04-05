@@ -42,5 +42,6 @@ if st.button('Click for your Birthday Surprise! 🎁'):
     
     st.write("---")
     st.write("Hope your day is as awesome as you are!")
+    st.audio("https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3", format="audio/mp3", autoplay=True)
 else:
     st.write("Go ahead... press the red button!")
